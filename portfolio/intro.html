@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(gradient.jpeg);
+            
+        }
+        
+       
+       
+        .container{
+            display: flex;
+        }
+        .sidebar{
+            width: 434px;
+            background-color: #dcb53f;
+            height: 100vh;
+            font-weight: bold;
+            
+        }
+        .sidebar nav{
+            padding: 70px;
+        }
+        .sidebar nav li{
+            list-style: none;
+            font-size: 20px;
+            padding: 30px;
+            color: black;
+            
+        }
+        .sidebar nav li a {
+            text-decoration: none;
+        }
+        .infocontainer{
+           /* background-color: rgb(209, 208, 208); */
+            height: 45vh;
+            width: 80vw;
+            margin: 262px auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .devinfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .about{
+            font-size: 30px;
+            
+        }
+        .contact button{
+            font-size: 16px;
+            padding: 9px 14px;
+            border-radius: 22px;
+            color: rgb(28, 28, 28);
+            background-color: #ffe838;
+            margin: 0 3px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .contact button:hover{
+            color: #ffe838;
+            background-color: rgb(28, 28, 28);
+            transition: transform 0.3s ease-in;
+        }
+        .contain div img{
+            max-width: 519px;
+            height: 240px;
+
+        } 
+        .skills{
+            padding: 12px;
+        }
+        .skillitems{
+            background-color: transparent;
+            display: flex;
+            width: 300px;
+            height: 13px;
+            align-items: center;
+            padding: 6px;
+            
+        }
+        .skill{
+            width: 200px;
+            height: 13px;
+            background-color: red;
+        }
+        .t10{
+            width: 300px;
+            background-color: chartreuse;
+        }
+        .t5{
+            width: 150px;
+            background-color: yellow;
+        }
+        .t2{
+            width: 75px;
+            background-color: red;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+            <ul>
+            
+                <li><a href="]main.html">HOME</a></li>
+                <li><a href="intro.html">ABOUT</a></li>
+                <li><a href="resume.html" target="_blank">RESUME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+        
+            </nav>
+        </div>
+        <div class="main">
+            <div class="intro">
+            
+                    <div class="contain">
+                        <div>
+                            <h1>My achivements</h1>
+                            <img src="engmar1.jpg" alt="marathon" >
+                            <img src="cert2py.jpg" alt="python">
+                            <img src="engmar2.jpg" alt="marthon">
+                            <img src="cwert2mscit.jpg" alt="MSCIT">
+                        </div>
+                        <div class="skills">
+                            <div>
+                                <h1>My skills</h1>
+                                <div class="skillitems">HTML: <div class="skill t10"></div></div>
+                                <div class="skillitems">CSS: <div class="skill t5"></div></div>
+                                <div class="skillitems">PYTHON: <div class="skill t2"></div></div>
+                                <div class="skillitems">FLUTTER: <div class="skill t2"></div></div>
+                                <div class="skillitems">DART: <div class="skill t2"></div></div>
+            
+                            </div>
+                    </div>
+            </div>
+           
+        </div>
+        
+    </div>
+ 
+   
+        
+
+</body>
+</html>
